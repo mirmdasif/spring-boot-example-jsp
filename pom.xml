@@ -5,11 +5,10 @@
 	http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>spring-boot-web-jsp</artifactId>
+	<artifactId>spring-boot-jsp</artifactId>
 	<packaging>war</packaging>
-	<name>Spring Boot Web JSP Example</name>
-	<description>Spring Boot Web JSP Example</description>
-	<url>https://www.mkyong.com</url>
+	<name>Spring Boot JSP Example</name>
+	<description>Spring Boot JSP Example</description>
 	<version>1.0</version>
 
 	<parent>
@@ -48,22 +47,6 @@
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-jasper</artifactId>
 			<scope>provided</scope>
-		</dependency>
-
-		<!-- Need this to compile JSP,
-			tomcat-embed-jasper version is not working, no idea why -->
-		<dependency>
-			<groupId>org.eclipse.jdt.core.compiler</groupId>
-			<artifactId>ecj</artifactId>
-			<version>4.6.1</version>
-			<scope>provided</scope>
-		</dependency>
-
-		<!-- Optional, test for static content, bootstrap CSS-->
-		<dependency>
-			<groupId>org.webjars</groupId>
-			<artifactId>bootstrap</artifactId>
-			<version>3.3.7</version>
 		</dependency>
 
 	</dependencies>
