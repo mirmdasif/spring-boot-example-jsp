@@ -3,8 +3,8 @@
 Example Spring Boot application serving jsp pages with jstl
 
 ## Prerequisite
- - Java8
- - maven or gradle
+ - Java 8
+ - maven 3 or gradle 4
  
 ## Run Rroject
  - With Gradle ```gradle bootRun```
